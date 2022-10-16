@@ -44,10 +44,10 @@ struct tile: View  {
                 }) {
                     // How the button looks like
                 }
-                .cornerRadius(14)
                 .frame(width: 100, height: 160)
                 .background(color)
-                .buttonBorderShape(<#T##shape: ButtonBorderShape##ButtonBorderShape#>)
+                .cornerRadius(10)
+          
 //                overlay(
 //                                RoundedRectangle(cornerRadius: 25)
 //                                    .stroke(Color.white, lineWidth: 2)
